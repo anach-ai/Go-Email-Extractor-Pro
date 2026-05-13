@@ -6,10 +6,27 @@ Your license is **tied to one computer**. Follow these steps to activate.
 
 ## Step 1 — Get your Device ID
 
-1. Open **Command Prompt** or **PowerShell** in the folder where you installed the extractor (the folder containing `go-email-extractor-pro.exe`).
-2. Run:
+1. Open a terminal in the folder where you installed the extractor.
+2. Run the command for your platform:
+
+   **Windows**
    ```
    go-email-extractor-pro.exe -license-info
+   ```
+
+   **Linux (amd64)**
+   ```
+   ./go-email-extractor-pro-linux-amd64 -license-info
+   ```
+
+   **macOS (Intel / amd64)**
+   ```
+   ./go-email-extractor-pro-darwin-amd64 -license-info
+   ```
+
+   **macOS (Apple Silicon / arm64)**
+   ```
+   ./go-email-extractor-pro-darwin-arm64 -license-info
    ```
 3. You will see something like:
    ```
@@ -30,7 +47,7 @@ Your license is **tied to one computer**. Follow these steps to activate.
 ## Step 3 — Install your license file
 
 1. The seller will send you a file named **`license.key`**.
-2. **Put `license.key` in the same folder as `go-email-extractor-pro.exe`.**
+2. **Put `license.key` in the same folder as your extractor binary** (`.exe`, Linux, or macOS file).
 
    Example:
    ```
@@ -56,7 +73,7 @@ Your license is **tied to one computer**. Follow these steps to activate.
 
 | Message | What to do |
 |--------|------------|
-| **"license invalid or corrupted"** | Make sure `license.key` is in the same folder as the .exe and was sent for **your** Device ID. |
+| **"license invalid or corrupted"** | Make sure `license.key` is in the same folder as your binary and was sent for **your** Device ID. |
 | **"license is bound to another device"** | This license was made for a different PC. Use **this computer’s** Device ID (Step 1) and ask the seller for a new license. |
 | **"license has expired"** | Contact the seller to renew or extend your license. |
 | **"Place license.key next to the executable"** | You need a valid `license.key` in the program folder (see Step 3). |

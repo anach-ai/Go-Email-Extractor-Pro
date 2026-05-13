@@ -46,7 +46,7 @@
   "max_contact_pages_per_domain": 30,
   "max_pages_per_domain": 50,
   "enable_sitemap_discovery": true,
-  "max_sitemap_index_fetch": 3,
+  "max_sitemap_index_fetch": 12,
   "stream_domains": true,
   "distributed_mode": false,
   "redis_url": "redis://localhost:6379",
