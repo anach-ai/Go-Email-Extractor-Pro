@@ -1,0 +1,14 @@
+# Email Categorization Patterns
+# Format: category|pattern1|pattern2|pattern3
+# Order matters: first match wins. Specific categories first, general last.
+
+sales|sales|sell|ventas|verkauf|vendite|vendas|order|purchase|buy|quote|pricing|business|commercial|revenue
+support|support|help|soporte|hilfe|assistenza|suporte|assist|troubleshoot|issue|problem|service|customer|care
+admin|admin|administrator|management|manager|executive|director|ceo|founder|owner|office|main
+marketing|marketing|promotion|advertise|newsletter|subscribe|pr|public|media|social|promo
+technical|tech|technical|it|developer|dev|engineer|sysadmin|system|server|hosting|webmaster
+finance|finance|financial|accounting|accountant|billing|invoice|payment|payable|receivable|bookkeeping
+hr|hr|human|recruit|recruitment|jobs|career|hiring|employment|personnel|staff
+legal|legal|law|attorney|lawyer|counsel|compliance|regulatory|contract
+general|info|contact|inquiry|general|hello|mail|email|reach
+

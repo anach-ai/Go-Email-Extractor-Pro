@@ -1,0 +1,55 @@
+# Optional: one local part per line (lowercased). When the decoded ROT13 local part is in this set
+# (or contains any of these as a segment split by . - _), we prefer the decoded form even when it
+# has fewer vowels (e.g. sales.manager vs fnynrf.znantre).
+# Default list is role/department/job words only. Add first or last names from your own list or
+# a dictionary (thousands of names) if you want to prefer decoded for name@domain emails.
+#
+contact
+support
+info
+hello
+sales
+admin
+privacy
+careers
+career
+marketing
+enquiries
+inquiries
+legal
+press
+help
+office
+mail
+team
+general
+billing
+accounts
+orders
+purchasing
+manager
+director
+lead
+head
+chief
+coordinator
+specialist
+shipping
+booking
+service
+customer
+newsletter
+noreply
+noresponse
+reservierung
+empfang
+hosting
+bureau
+travel
+veteran
+einkauf
+representation
+bestellung
+lehre
+datenschutz
+presse
